@@ -1,13 +1,12 @@
 
 
 html body {
-	background: rgb(255, 255, 255); !important; /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+	background: rgb(255, 255, 255);  /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 	font: 14px 'Montserrat', sans-serif;
 	padding-bottom: 70px;
 }
 
 .jumbotron {
-	
 	background: url("../images/BW-city-skyline-LRG.png") center center no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -48,6 +47,27 @@ ul, .nav > li, .copyRight {
 
 .fa:hover {
 	color: tomato;
+}
+
+.form-control-border {
+	border-radius: 0;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.form-control:focus {
+	border-color: none;
+}
+
+.input-group-addon--bg, .btn--bg {
+	border-radius: 0;
+	background: rgb(255, 255, 255);
+}
+
+.btn:hover {
+	background: transparent;
 }
 
  
